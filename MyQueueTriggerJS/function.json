@@ -1,0 +1,19 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "js-queue-items",
+      "connection": ""
+    },
+    {
+        "name": "myOutputQueueItem",
+        "type": "queueTrigger",
+        "direction": "out",
+        "queueName": "js-output-queue",
+        "connection": ""
+    }
+  ]
+}
