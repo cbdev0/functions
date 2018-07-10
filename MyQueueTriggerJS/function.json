@@ -13,7 +13,7 @@
         "type": "queueTrigger",
         "direction": "out",
         "queueName": "js-output-queue",
-        "connection": ""
+        "connection": "AzureWebJobsStorage"
     }
   ]
 }
