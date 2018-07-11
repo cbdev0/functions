@@ -10,7 +10,7 @@
     },
     {
         "name": "myOutputQueueItem",
-        "type": "queueTrigger",
+        "type": "queue",
         "direction": "out",
         "queueName": "js-output-queue",
         "connection": "mystorageaccount2018_STORAGE"
