@@ -6,14 +6,14 @@
       "type": "queueTrigger",
       "direction": "in",
       "queueName": "js-queue-items",
-      "connection": ""
+      "connection": "mystorageaccount2018"
     },
     {
         "name": "myOutputQueueItem",
         "type": "queueTrigger",
         "direction": "out",
         "queueName": "js-output-queue",
-        "connection": "AzureWebJobsStorage"
+        "connection": "mystorageaccount2018"
     }
   ]
 }
